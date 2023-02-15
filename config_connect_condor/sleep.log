@@ -1,0 +1,138 @@
+000 (27917595.000.000) 2021-12-03 09:52:03 Job submitted from host: <131.169.223.42:9618?addrs=131.169.223.42-9618+[2001-638-700-10df--1-2a]-9618&alias=bird-htc-sched14.desy.de&noUDP&sock=schedd_487018_6b05_104>
+...
+001 (27917595.000.000) 2021-12-03 09:52:22 Job executing on host: <131.169.77.164:34618?addrs=131.169.77.164-34618&alias=bird644.desy.de>
+...
+006 (27917595.000.000) 2021-12-03 09:52:26 Image size of job updated: 1964
+	2  -  MemoryUsage of job (MB)
+	1928  -  ResidentSetSize of job (KB)
+...
+006 (27917595.000.000) 2021-12-03 09:52:32 Image size of job updated: 534636
+	4  -  MemoryUsage of job (MB)
+	3668  -  ResidentSetSize of job (KB)
+...
+006 (27917595.000.000) 2021-12-03 09:57:32 Image size of job updated: 4941992
+	996  -  MemoryUsage of job (MB)
+	1018920  -  ResidentSetSize of job (KB)
+...
+006 (27917595.000.000) 2021-12-03 10:02:32 Image size of job updated: 8139792
+	996  -  MemoryUsage of job (MB)
+	1018920  -  ResidentSetSize of job (KB)
+...
+006 (27917595.000.000) 2021-12-03 10:07:33 Image size of job updated: 8401940
+	996  -  MemoryUsage of job (MB)
+	1018920  -  ResidentSetSize of job (KB)
+...
+012 (27917595.000.000) 2021-12-03 11:05:50 Job was held.
+	The job attribute OnExitHold expression '(ExitCode != 0)' evaluated to TRUE
+	Code 3 Subcode 0
+...
+009 (27917595.000.000) 2021-12-03 11:06:01 Job was aborted by the user.
+	via condor_rm (by user jabuschh)
+
+	Job terminated by itself at 2021-12-03T08:52:26Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (27918615.000.000) 2021-12-03 12:26:45 Job submitted from host: <131.169.223.42:9618?addrs=131.169.223.42-9618+[2001-638-700-10df--1-2a]-9618&alias=bird-htc-sched14.desy.de&noUDP&sock=schedd_487018_6b05_104>
+...
+001 (27918615.000.000) 2021-12-03 12:27:10 Job executing on host: <131.169.77.164:34618?addrs=131.169.77.164-34618&alias=bird644.desy.de>
+...
+006 (27918615.000.000) 2021-12-03 12:27:14 Image size of job updated: 1612
+	2  -  MemoryUsage of job (MB)
+	1596  -  ResidentSetSize of job (KB)
+...
+006 (27918615.000.000) 2021-12-03 12:27:19 Image size of job updated: 381656
+	4  -  MemoryUsage of job (MB)
+	3688  -  ResidentSetSize of job (KB)
+...
+006 (27918615.000.000) 2021-12-03 12:32:20 Image size of job updated: 6234200
+	855  -  MemoryUsage of job (MB)
+	874776  -  ResidentSetSize of job (KB)
+...
+006 (27918615.000.000) 2021-12-03 12:35:36 Image size of job updated: 6519496
+	1070  -  MemoryUsage of job (MB)
+	1095156  -  ResidentSetSize of job (KB)
+...
+012 (27918615.000.000) 2021-12-03 12:35:36 Job was held.
+	The job attribute OnExitHold expression '(ExitCode != 0)' evaluated to TRUE
+	Code 3 Subcode 0
+...
+009 (27918615.000.000) 2021-12-03 12:35:42 Job was aborted by the user.
+	via condor_rm (by user jabuschh)
+
+	Job terminated by itself at 2021-12-03T11:27:14Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (27918622.000.000) 2021-12-03 12:37:54 Job submitted from host: <131.169.223.42:9618?addrs=131.169.223.42-9618+[2001-638-700-10df--1-2a]-9618&alias=bird-htc-sched14.desy.de&noUDP&sock=schedd_487018_6b05_104>
+...
+001 (27918622.000.000) 2021-12-03 12:38:28 Job executing on host: <131.169.163.138:34756?addrs=131.169.163.138-34756&alias=bird699.desy.de>
+...
+006 (27918622.000.000) 2021-12-03 12:38:28 Image size of job updated: 1528
+	6  -  MemoryUsage of job (MB)
+	5608  -  ResidentSetSize of job (KB)
+...
+006 (27918622.000.000) 2021-12-03 12:38:36 Image size of job updated: 383836
+	6  -  MemoryUsage of job (MB)
+	5608  -  ResidentSetSize of job (KB)
+...
+006 (27918622.000.000) 2021-12-03 12:43:37 Image size of job updated: 8680536
+	704  -  MemoryUsage of job (MB)
+	720624  -  ResidentSetSize of job (KB)
+...
+006 (27918622.000.000) 2021-12-03 12:47:43 Image size of job updated: 8680536
+	1180  -  MemoryUsage of job (MB)
+	1208080  -  ResidentSetSize of job (KB)
+...
+012 (27918622.000.000) 2021-12-03 12:47:43 Job was held.
+	The job attribute OnExitHold expression '(ExitCode != 0)' evaluated to TRUE
+	Code 3 Subcode 0
+...
+009 (27918622.000.000) 2021-12-03 12:47:50 Job was aborted by the user.
+	via condor_rm (by user jabuschh)
+
+	Job terminated by itself at 2021-12-03T11:38:28Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (27918632.000.000) 2021-12-03 12:48:34 Job submitted from host: <131.169.223.42:9618?addrs=131.169.223.42-9618+[2001-638-700-10df--1-2a]-9618&alias=bird-htc-sched14.desy.de&noUDP&sock=schedd_487018_6b05_104>
+...
+001 (27918632.000.000) 2021-12-03 12:49:13 Job executing on host: <131.169.77.168:39752?addrs=131.169.77.168-39752&alias=bird648.desy.de>
+...
+006 (27918632.000.000) 2021-12-03 12:49:14 Image size of job updated: 2064
+	2  -  MemoryUsage of job (MB)
+	1960  -  ResidentSetSize of job (KB)
+...
+006 (27918632.000.000) 2021-12-03 12:49:22 Image size of job updated: 381656
+	4  -  MemoryUsage of job (MB)
+	3680  -  ResidentSetSize of job (KB)
+...
+006 (27918632.000.000) 2021-12-03 12:54:23 Image size of job updated: 4284008
+	728  -  MemoryUsage of job (MB)
+	745268  -  ResidentSetSize of job (KB)
+...
+006 (27918632.000.000) 2021-12-03 12:59:24 Image size of job updated: 4878476
+	1021  -  MemoryUsage of job (MB)
+	1045112  -  ResidentSetSize of job (KB)
+...
+006 (27918632.000.000) 2021-12-03 13:04:24 Image size of job updated: 8359372
+	1021  -  MemoryUsage of job (MB)
+	1045112  -  ResidentSetSize of job (KB)
+...
+006 (27918632.000.000) 2021-12-03 13:09:24 Image size of job updated: 8359372
+	1071  -  MemoryUsage of job (MB)
+	1096420  -  ResidentSetSize of job (KB)
+...
+012 (27918632.000.000) 2021-12-03 13:19:36 Job was held.
+	The job attribute OnExitHold expression '(ExitCode != 0)' evaluated to TRUE
+	Code 3 Subcode 0
+...
+009 (27918632.000.000) 2021-12-03 13:19:41 Job was aborted by the user.
+	via condor_rm (by user jabuschh)
+
+	Job terminated by itself at 2021-12-03T11:49:14Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (3023736.000.000) 2023-02-15 10:30:35 Job submitted from host: <131.169.223.39:9618?addrs=131.169.223.39-9618+[2001-638-700-10df--1-27]-9618&alias=bird-htc-sched11.desy.de&noUDP&sock=schedd_2450926_f487>
+...
+009 (3023736.000.000) 2023-02-15 10:30:55 Job was aborted.
+	via condor_rm (by user jabuschh)
+...
+000 (3024036.000.000) 2023-02-15 10:31:26 Job submitted from host: <131.169.223.39:9618?addrs=131.169.223.39-9618+[2001-638-700-10df--1-27]-9618&alias=bird-htc-sched11.desy.de&noUDP&sock=schedd_2450926_f487>
+...
+009 (3024036.000.000) 2023-02-15 10:43:09 Job was aborted.
+	via condor_rm (by user jabuschh)
+...
