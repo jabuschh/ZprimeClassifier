@@ -60,8 +60,7 @@ parameters = {
     'eqweight': False,
     'preprocess': 'StandardScaler',
     'sigma': 1.0, #sigma for Gaussian prior (BNN only)
-    #'inputdir': '../Inputs_UL18_muon/',
-    'inputdir': '../Inputs_UL17_muon_lite/',
+    'inputdir': '/nfs/dust/cms/user/jabuschh/uhh2-106X_v2/CMSSW_10_6_28/src/UHH2/MLCorner/output/UL17/muon/',
     #        'systvar': variations[ivars],
     'inputsubdir': 'MLInput/', #path to input files: inputdir + systvar + inputsubdir
     'prepreprocess': 'RAW' #for inputs with systematics don't do preprocessing before merging all inputs on one,     #FixME: add prepreprocessing in case one does not need to merge inputs
@@ -79,7 +78,7 @@ for ivars in range(len(variations)):
      inputfolder = parameters['inputdir']+parameters['inputsubdir']+parameters['systvar']+'/'+parameters['prepreprocess']+'/'+ classtag
      GetInputs(parameters)
      PlotInputs(parameters, inputfolder=inputfolder, filepostfix='', plotfolder='Plots/'+parameters['prepreprocess']+'/InputDistributions/'+parameters['systvar']+'/' + classtag)
-  
+
 MixInputs(parameters, outputfolder=parameters['inputdir']+parameters['preprocess']+'/'+merged_str+'/' + classtag, variations=variations, filepostfix='')
 SplitInputs(parameters, outputfolder=parameters['inputdir']+parameters['preprocess']+'/'+merged_str+'/' + classtag, filepostfix='')
 FitPrepocessing(parameters, outputfolder=parameters['inputdir']+parameters['preprocess']+'/'+merged_str+'/' + classtag, filepostfix='')
@@ -95,7 +94,7 @@ PlotInputs(parameters, inputfolder=inputfolder, filepostfix='', plotfolder=plotf
 
 #####
 
-# DNN 
+# DNN
 TrainNetwork(parameters, inputfolder=parameters['inputdir']+parameters['preprocess']+'/'+merged_str+'/'+classtag, outputfolder='output/'+parameters['preprocess']+'/DNN_'+tag)
 PredictExternal(parameters, inputfolder=parameters['inputdir']+parameters['preprocess']+'/'+merged_str+'/'+classtag, outputfolder='output/'+parameters['preprocess']+'/DNN_'+tag, filepostfix='')
 PlotPerformance(parameters, inputfolder=parameters['inputdir']+parameters['preprocess']+'/'+merged_str+'/'+classtag, outputfolder='output/'+parameters['preprocess']+'/DNN_'+tag, filepostfix='', plotfolder='Plots/'+parameters['preprocess']+'/DNN_'+tag, use_best_model=True, usesignals=[2,4])
